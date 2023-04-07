@@ -1,0 +1,82 @@
+/* Estos son estilos globales para toda la aplicación */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: rgb(171, 183, 196);
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.display-area{
+  border: 1px solid black;
+  margin-left: 2vw;
+  height: 100vh;
+  width: 57vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.previewer-title{
+  border: 0px;
+  margin: 0;
+  background-color: #cabfbf;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.markdown-text{
+  background-color: white;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+  height: 95vh;
+  box-sizing: border-box;
+  padding: 0px 20px 30px 20px;
+}
+
+.input-area{
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100 vw;
+  display: flex;
+}
+
+.textarea-title{
+  border: 1px solid #cabfbf;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 39.4vw;
+  background-color: #cabfbf;
+}
+
+.text-area{
+  /* border: 1px solid black; */
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* .parsed-markdown{
+  border: 1px solid black;
+  width: 53vw;
+  background-color: white;
+} */
+
+/* .raw-markdown{
+  border: 1px solid black;
+  width: 50vw;
+  background-color: white;
+} */
