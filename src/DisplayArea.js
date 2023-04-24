@@ -37,7 +37,6 @@ class DisplayArea extends React.Component {
   render() {
     return(
       <div className='display-area'>
-        {/* <div className="raw-markdown">{marked.parse(this.props.input)}</div> */}
         <h2 className="previewer-title"><i class="fa-brands fa-react"></i> Previewer</h2>
         <div id="preview" className="markdown-text" dangerouslySetInnerHTML={{__html: marked.parse(this.props.input)}}/>
       </div>
