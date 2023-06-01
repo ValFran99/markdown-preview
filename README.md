@@ -1,2 +1,2 @@
-# markdown-preview
+# markdown-previewer
  
